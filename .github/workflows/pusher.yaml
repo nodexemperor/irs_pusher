@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: '0 0 * * *' # 00:00 UTC / 07:00 WIB
 
 jobs:
   commit:
@@ -48,7 +50,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         date="$(date)"
         git add .
-        git commit --amend -am "${date}
+        git commit -am "${date}
     
         IRS commit: ${{ env.irslatestcommit }}
         Builder commit: ${{ env.latestcommit }}
