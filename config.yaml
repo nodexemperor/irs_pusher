@@ -1,0 +1,15 @@
+output_dir:
+    mainnet: "/home/runner/work/irs_pusher/irs_pusher/irs_output/mainnet"
+    testnet: "/home/runner/work/irs_pusher/irs_pusher/irs_output/testnet"
+
+mainnet:
+    nolus:
+        rpc: ["http://5.9.99.172:19757", "http://65.108.199.120:35457"]
+    quasar:
+        rpc: ["http://51.89.190.33:26657", "http://34.175.55.194:26657"]
+
+testnet:
+    nolus:
+        rpc: ["https://nolus-testnet.rpc.kjnodes.com"]
+    quasar:
+        rpc: ["https://quasar-testnet.rpc.kjnodes.com"]
