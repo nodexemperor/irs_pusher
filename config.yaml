@@ -12,15 +12,15 @@ mainnet:
     gitopia:
         rpc: ["https://gitopia.rpc.kjnodes.com", "https://gitopia-rpc.polkachu.com", "https://rpc.gitopia.nodestake.top"] 
     haqq:
-        rpc: ["https://rpc.haqq.nodestake.top", "https://rpc.tm.haqq.network"] 
+        rpc: ["https://rpc.haqq.nodestake.top", "https://rpc.tm.haqq.network", "http://65.109.33.48:25657"] 
     nolus:
         rpc: ["http://5.9.99.172:19757", "http://65.108.199.120:35457", "https://nolus.rpc.kjnodes.com", "https://nolus-rpc.polkachu.com"]
     oraichain:
-        rpc: ["https://rpc.orai.io"] 
+        rpc: ["https://rpc.orai.io", "http://5.78.98.175:26657", "http://35.237.59.125:26657", "http://139.59.228.6:26657"] 
     planq:
-        rpc: ["https://planq-rpc.polkachu.com", "https://rpc.planq.nodestake.top"] 
+        rpc: ["https://planq-rpc.polkachu.com", "https://rpc.planq.nodestake.top", "http://185.190.140.93:14657", "http://65.108.66.174:31657"] 
     point:
-        rpc: ["https://rpc.point.nodestake.top", "https://mainnet-point-api.konsortech.xyz"]
+        rpc: ["https://rpc.point.nodestake.top", "https://mainnet-point-api.konsortech.xyz", "http://164.92.145.14:26659"]
     quasar:
         rpc: ["http://51.89.190.33:26657", "http://34.175.55.194:26657", "https://quasar.rpc.kjnodes.com", "https://quasar-rpc.polkachu.com"]
     realio:
@@ -31,6 +31,8 @@ mainnet:
         rpc: ["https://rpc-sommelier.pupmos.network", "https://sommelier-rpc.lavenderfive.com", "https://sommelier-rpc.polkachu.com"] 
     terp:
         rpc: ["https://terp-mainnet-rpc.itrocket.net", "https://rpc.terp.nodestake.top"]
+    celestia:
+        rpc: ["https://rpc.celestia.nodestake.top", "https://celestia-rpc.polkachu.com", "https://celestia.rpc.kjnodes.com"]
     
 testnet:
     althea:
@@ -70,16 +72,16 @@ testnet:
     okp4:
         rpc: ["https://okp4-testnet.rpc.kjnodes.com", "https://rpc-t.okp4.nodestake.top", "https://okp4-testnet-rpc.polkachu.com", "http://152.32.225.132:26657", "http://65.109.117.212:13091"]
     quasar:
-        rpc: ["https://quasar-testnet.rpc.kjnodes.com"]
+        rpc: ["https://quasar-testnet.rpc.kjnodes.com", "http://222.106.187.13:20602", "http://141.94.138.48:26662"]
     router:
         rpc: ["https://rpc-t.router.nodestake.top", "https://tm.rpc.testnet.routerchain.dev"]
     selfchain:
         rpc: ["https://selfchain-testnet-rpc.polkachu.com", "https://rpc-t.self.nodestake.top"]
     temporal:
-        rpc: ["https://temporal-testnet-rpc.polkachu.com"]
+        rpc: ["https://temporal-testnet-rpc.polkachu.com", "http://164.68.121.132:26628", "http://142.132.157.153:24157"]
     terp:
         rpc: ["https://terp-testnet-rpc.itrocket.net"]
     xion:
         rpc: ["https://xion-testnet-rpc.polkachu.com"]
     zetachain:
-        rpc: ["https://zetachain-testnet-rpc.polkachu.com"]
+        rpc: ["https://zetachain-testnet-rpc.polkachu.com", "https://zetachain-testnet.rpc.kjnodes.com", "https://rpc-t.zeta.nodestake.top", "https://zetachain-testnet-rpc.itrocket.net", "http://15.235.160.207:26657", "http://3.0.80.230:26657", "http://141.94.214.137:26657", "http://52.3.196.71:26657"]
