@@ -33,7 +33,9 @@ mainnet:
         rpc: ["https://terp-mainnet-rpc.itrocket.net", "https://rpc.terp.nodestake.top", "http://65.109.92.240:21317", "http://193.46.243.184:36657", "http://207.244.254.232:26657", "http://65.108.232.168:37657", "http://65.21.90.141:12271"]
     celestia:
         rpc: ["https://rpc.celestia.nodestake.top", "https://celestia-rpc.polkachu.com", "https://celestia.rpc.kjnodes.com"]
-    
+    dydx:
+        rpc: ["https://dydx-mainnet-rpc.autostake.com", "https://rpc.dydx.nodestake.top"]
+
 testnet:
     althea:
         rpc: ["https://althea-testnet.rpc.kjnodes.com", "http://142.132.202.50:47657", "http://88.99.164.158:17887", "http://49.12.84.248:19657", "http://66.172.36.142:14657", "http://5.9.106.214:26679"]
