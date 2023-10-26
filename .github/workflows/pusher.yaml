@@ -55,5 +55,6 @@ jobs:
         IRS commit: ${{ env.irslatestcommit }}
         Builder commit: ${{ env.latestcommit }}
         
-        Co-authored-by: Salman Wahib <sxlmnwb@nodex.one>" -s
+        Co-authored-by: Salman Wahib <sxlmnwb@nodex.one>"
+        Co-authored-by: Whyme <whyme@nodex.one>" -s
         git push -f || echo "No changes to commit"
