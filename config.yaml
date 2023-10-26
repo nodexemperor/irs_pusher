@@ -34,7 +34,7 @@ mainnet:
     celestia:
         rpc: ["https://rpc.celestia.nodestake.top", "https://celestia-rpc.polkachu.com", "https://celestia.rpc.kjnodes.com"]
     dydx:
-        rpc: ["https://dydx-mainnet-rpc.autostake.com", "https://rpc.dydx.nodestake.top", "http://45.250.255.107:26657", "http://57.128.60.218:26657", "http://91.132.144.175:26657"]
+        rpc: ["http://45.250.255.107:26657", "http://57.128.60.218:26657", "http://91.132.144.175:26657", "http://51.38.56.121:26657", "http://54.37.253.178:26657"]
 
 testnet:
     althea:
