@@ -34,7 +34,7 @@ mainnet:
     celestia:
         rpc: ["https://rpc.celestia.nodestake.top", "https://celestia-rpc.polkachu.com", "https://celestia.rpc.kjnodes.com"]
     dydx:
-        rpc: ["https://rpc.dydx.nodestake.top", "https://dydx-mainnet-rpc.autostake.com"]
+        rpc: ["https://rpc.dydx.nodestake.top", "https://dydx-mainnet-rpc.autostake.com", "https://dydx-rpc.lavenderfive.com", "https://dydx-dao-rpc-1.polkachu.com", "https://dydx-dao-rpc-2.polkachu.com", "https://dydx-dao-rpc-3.polkachu.com", "https://dydx-dao-rpc-4.polkachu.com", "https://dydx-dao-rpc-5.polkachu.com", "https://dydx-mainnet-full-rpc.public.blastapi.io", "https://dydx-ops-rpc.kingnodes.com", "https://dydx-dao-archive-rpc-1.polkachu.com", "https://dydx-dao-archive-rpc-2.polkachu.com", "https://dydx-mainnet-archive-rpc.public.blastapi.io", "https://dydx-ops-archive-rpc.kingnodes.com"]
     bitcanna:
         rpc: ["http://65.108.43.170:16657", "http://65.108.142.81:26683", "http://93.115.25.15:26657", "http://154.12.232.8:26657", "http://51.159.223.25:33657", "http://161.97.150.65:26657", "http://185.144.99.40:46657", "http://65.109.155.238:33657", "http://65.109.33.48:17657", "http://65.109.112.170:37657", "https://bitcanna.rpc.kjnodes.com", "https://bitcanna-rpc.polkachu.com"]
 testnet:
