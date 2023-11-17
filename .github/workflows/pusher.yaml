@@ -32,11 +32,15 @@ jobs:
         pip install logging
         pip install PyYaml
 
-    - name: Integration Repository & Starting Scanner
+    - name: Integration Repository & Starting Scanner & GetTotalStakingData.json
       shell: bash
       run: |
+        git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/GetTotalStakingData.json gettotalstakingdata --depth=1
         git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/irs --depth=1
         git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/irs_output
+        cd gettotalstakingdata
+        ./main.py && cd ..
+        mv gettotalstakingdata/GetTotalStakingData.json /home/runner/work/irs_pusher/irs_pusher/irs_output/mainnet/
         cp config.yaml irs/.irs/
         cd irs
         echo "irslatestcommit=$(git rev-parse HEAD)" >> $GITHUB_ENV
