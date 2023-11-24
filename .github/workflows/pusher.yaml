@@ -1,62 +1,62 @@
-name: IRS Pusher
+# name: IRS Pusher
 
-on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: '0 0 * * *' # 00:00 UTC / 07:00 WIB
+# on:
+#   push:
+#     branches:
+#       - master
+#   schedule:
+#     - cron: '0 0 * * *' # 00:00 UTC / 07:00 WIB
 
-jobs:
-  commit:
-    name: Massal Scanner
-    runs-on: ubuntu-latest
+# jobs:
+#   commit:
+#     name: Massal Scanner
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Git Checkout Latest
-      uses: actions/checkout@v3
-    - name: Set Up Python Latest
-      uses: actions/setup-python@v3   
-      with:
-        token: ${{ secrets.ACCESS_TOKEN }}
+#     steps:
+#     - name: Git Checkout Latest
+#       uses: actions/checkout@v3
+#     - name: Set Up Python Latest
+#       uses: actions/setup-python@v3   
+#       with:
+#         token: ${{ secrets.ACCESS_TOKEN }}
 
-    - name: Fetch last commit
-      shell: bash
-      run: |
-        echo "latestcommit=$(git rev-parse HEAD)" >> $GITHUB_ENV
+#     - name: Fetch last commit
+#       shell: bash
+#       run: |
+#         echo "latestcommit=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
-    - name: Update Package Python
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests
-        pip install logging
-        pip install PyYaml
+#     - name: Update Package Python
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install requests
+#         pip install logging
+#         pip install PyYaml
 
-    - name: Integration Repository & Starting Scanner
-      shell: bash
-      run: |
-        git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/irs --depth=1
-        git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/irs_output
-        rm -f /home/runner/work/irs_pusher/irs_pusher/irs_output/mainnet/*
-        rm -f /home/runner/work/irs_pusher/irs_pusher/irs_output/testnet/*
-        cp config.yaml irs/.irs/
-        cd irs
-        echo "irslatestcommit=$(git rev-parse HEAD)" >> $GITHUB_ENV
-        ./irs-massal.py
+#     - name: Integration Repository & Starting Scanner
+#       shell: bash
+#       run: |
+#         git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/irs --depth=1
+#         git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/irs_output
+#         rm -f /home/runner/work/irs_pusher/irs_pusher/irs_output/mainnet/*
+#         rm -f /home/runner/work/irs_pusher/irs_pusher/irs_output/testnet/*
+#         cp config.yaml irs/.irs/
+#         cd irs
+#         echo "irslatestcommit=$(git rev-parse HEAD)" >> $GITHUB_ENV
+#         ./irs-massal.py
 
-    - name: Updating Commit To irs_output
-      shell: bash
-      run: |
-        cd irs_output
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        date="$(date)"
-        git add .
-        git commit -am "${date}
+#     - name: Updating Commit To irs_output
+#       shell: bash
+#       run: |
+#         cd irs_output
+#         git config --global user.name "github-actions[bot]"
+#         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+#         date="$(date)"
+#         git add .
+#         git commit -am "${date}
     
-        IRS commit: ${{ env.irslatestcommit }}
-        Builder commit: ${{ env.latestcommit }}
+#         IRS commit: ${{ env.irslatestcommit }}
+#         Builder commit: ${{ env.latestcommit }}
         
-        Co-authored-by: Salman Wahib <sxlmnwb@nodex.one>
-        Co-authored-by: Whyme <whyme@nodex.one>" -s
-        git push -f || echo "No changes to commit"
+#         Co-authored-by: Salman Wahib <sxlmnwb@nodex.one>
+#         Co-authored-by: Whyme <whyme@nodex.one>" -s
+#         git push -f || echo "No changes to commit"
