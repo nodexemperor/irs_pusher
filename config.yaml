@@ -52,6 +52,8 @@ mainnet:
     zetachain:
         rpc: [https://zetachain-rpc.polkachu.com", "https://rpc.zetachain.nodestake.org"]
 testnet:
+    alignedlayer:
+        rpc: ["https://alignedlayer-testnet-rpc.staketab.org", "https://rpc-node.alignedlayer.com", "http://88.99.174.203:26657", "http://116.203.81.174:26657", "http://128.140.3.188:26657"]
     althea:
         rpc: ["https://althea-testnet.rpc.kjnodes.com", "http://142.132.202.50:47657", "http://88.99.164.158:17887", "http://49.12.84.248:19657", "http://66.172.36.142:14657", "http://5.9.106.214:26679"]
     #andromeda:
