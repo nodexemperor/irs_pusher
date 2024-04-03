@@ -82,10 +82,12 @@ testnet:
     #    rpc: ["https://dora-testnet-rpc.polkachu.com", "https://rpc-t.dora.nodestake.top", "https://dora-testnet-rpc.itrocket.net"]
     elys:
         rpc: ["https://elys-testnet-rpc.polkachu.com", "https://rpc-t.elys.nodestake.top", "https://elys-testnet.rpc.kjnodes.com", "http://37.187.154.66:26657", "http://91.183.62.162:26657", "http://198.27.74.140:26657"]
+    galactica:
+        rpc: ["https://galactica-testnet-rpc.itrocket.net", "https://rpc-t.galactica.nodestake.org"]
     entrypoint:
         rpc: ["https://testnet-rpc.entrypoint.zone"]
-    entangle:
-        rpc: ["https://rpc-t.entangle.nodestake.top", "https://entangle.rpc.t.stavr.tech", "http://65.109.33.48:14657", "http://207.244.253.244:29657", "http://202.60.105.146:26657", "http://95.214.52.157:14257"]
+    #entangle:
+    #    rpc: ["https://rpc-t.entangle.nodestake.top", "https://entangle.rpc.t.stavr.tech", "http://65.109.33.48:14657", "http://207.244.253.244:29657", "http://202.60.105.146:26657", "http://95.214.52.157:14257"]
     lava:
         rpc: ["https://lava-testnet.rpc.kjnodes.com", "https://lava-testnet-rpc.polkachu.com", "https://rpc-t.lava.nodestake.top", "http://65.109.85.52:46657", "http://65.108.65.36:11657", "http://65.109.30.90:11657"]
     mantra:
@@ -98,8 +100,8 @@ testnet:
     #     rpc: ["https://rpc-t.noria.nodestake.top", "https://noria-testnet-rpc.polkachu.com", "http://65.108.211.139:26657", "http://65.108.105.48:22157", "http://102.130.121.211:26657", "http://195.3.221.16:12057", "http://65.109.70.45:12657", "http://65.108.206.118:61657", "http://46.17.250.108:61357"]
     ojo:
         rpc: ["https://ojo-testnet.rpc.kjnodes.com", "https://ojo-testnet-rpc.polkachu.com", "https://rpc-t.ojo.nodestake.top", "http://142.132.209.236:21657", "http://78.46.99.50:22657"]
-    okp4:
-         rpc: ["https://okp4-testnet.rpc.kjnodes.com", "https://rpc-t.okp4.nodestake.top", "https://okp4-testnet-rpc.polkachu.com", "http://152.32.225.132:26657", "http://65.109.117.212:13091"]
+    #okp4:
+    #     rpc: ["https://okp4-testnet.rpc.kjnodes.com", "https://rpc-t.okp4.nodestake.top", "https://okp4-testnet-rpc.polkachu.com", "http://152.32.225.132:26657", "http://65.109.117.212:13091"]
     pryzm:
         rpc: ["https://pryzm-testnet-rpc.polkachu.com", "https://pryzm-testnet-rpc.synergynodes.com"]
     quasar:
