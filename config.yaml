@@ -3,8 +3,8 @@ output_dir:
     testnet: "/home/runner/work/irs_pusher/irs_pusher/irs_output/testnet"
 
 mainnet:
-    andromeda:
-        rpc: ["https://andromeda.rpc.kjnodes.com", "https://rpc.andromeda-1.andromeda.aviaone.com"]
+    #andromeda:
+    #    rpc: ["https://andromeda.rpc.kjnodes.com", "https://rpc.andromeda-1.andromeda.aviaone.com"]
     #band:
     #    rpc: ["https://band-rpc.polkachu.com", "http://78.46.103.246:62057", "http://176.9.147.146:46657", "http://5.9.99.172:22957", "http://23.88.91.115:22957", "http://78.46.103.246:62057", "http://51.15.208.237:26657", "http://91.246.64.247:26657"]
     bitcanna:
@@ -25,8 +25,8 @@ mainnet:
     #    rpc: ["https://rpc.haqq.nodestake.top", "https://rpc.tm.haqq.network", "http://65.109.33.48:25657", "http://65.108.238.215:26757", "http://192.248.181.17:26657", "http://89.208.146.222:26657", "http://51.159.98.175:26657", "http://65.21.90.141:12291", "http://180.149.44.66:26657", "http://194.163.151.41:26657", "http://209.250.232.211:26657", "http://209.250.232.211:26657"] 
     nolus:
         rpc: ["http://5.9.99.172:19757", "http://65.108.199.120:35457", "https://nolus.rpc.kjnodes.com", "https://nolus-rpc.polkachu.com"]
-    nibiru:
-        rpc: ["https://nibiru.rpc.kjnodes.com", "https://rpc.nibiru.nodestake.top", "https://nibiru-rpc.polkachu.com"]
+    #nibiru:
+    #    rpc: ["https://nibiru.rpc.kjnodes.com", "https://rpc.nibiru.nodestake.top", "https://nibiru-rpc.polkachu.com"]
     oraichain:
         rpc: ["https://rpc.orai.io", "http://5.78.98.175:26657", "http://139.59.228.6:26657", "http://35.227.96.96:26657", "http://3.134.19.98:26657", "http://3.14.142.99:26657", "http://142.132.157.153:23357", "http://46.4.23.225:26657", "http://5.189.169.99:26657", "http://154.26.155.99:26657", "http://170.64.208.218:26657", "http://134.209.106.91:26657", "http://35.237.59.125:26657"] 
     planq:
@@ -41,6 +41,8 @@ mainnet:
         rpc: ["https://realio-mainnet-rpc.itrocket.net", "https://rpc.realio.nodestake.top", "http://5.9.61.78:11657", "http://46.17.250.108:56657", "http://88.99.164.158:21097", "http://159.223.176.211:26657", "http://173.249.59.70:32657"]
     router:
         rpc: ["https://router-rpc.genznodes.dev", "https://rpc.router.nodestake.org"]
+    selfchain:
+        rpc: ["https://selfchain.rpc.nodex.one", "https://rpc.selfchain.indonode.net"] 
     sge:
         rpc: ["https://sge-rpc.polkachu.com", "http://3.37.63.177:26657", "http://3.39.189.46:26657", "http://142.132.202.86:16657", "http://212.22.70.9:60557"] 
     #source:
@@ -49,25 +51,25 @@ mainnet:
     #    rpc: ["https://rpc-sommelier.pupmos.network", "https://sommelier-rpc.lavenderfive.com", "https://sommelier-rpc.polkachu.com", "http://5.9.99.172:14157", "http://148.113.6.121:34657"] 
     terp:
         rpc: ["https://terp-mainnet-rpc.itrocket.net", "https://rpc.terp.nodestake.top", "http://65.109.92.240:21317", "http://193.46.243.184:36657", "http://207.244.254.232:26657", "http://65.108.232.168:37657", "http://65.21.90.141:12271"]
-    zetachain:
-        rpc: [https://zetachain-rpc.polkachu.com", "https://rpc.zetachain.nodestake.org"]
+    #zetachain:
+    #    rpc: [https://zetachain-rpc.polkachu.com", "https://rpc.zetachain.nodestake.org"]
 testnet:
-    alignedlayer:
-        rpc: ["https://alignedlayer-testnet-rpc.staketab.org", "https://rpc-node.alignedlayer.com", "http://88.99.174.203:26657", "http://116.203.81.174:26657", "http://128.140.3.188:26657"]
-    althea:
-        rpc: ["https://althea-testnet.rpc.kjnodes.com", "http://142.132.202.50:47657", "http://88.99.164.158:17887", "http://49.12.84.248:19657", "http://66.172.36.142:14657", "http://5.9.106.214:26679"]
+    #althea:
+    #    rpc: ["https://althea-testnet.rpc.kjnodes.com", "http://142.132.202.50:47657", "http://88.99.164.158:17887", "http://49.12.84.248:19657", "http://66.172.36.142:14657", "http://5.9.106.214:26679"]
+    allora:
+        rpc: ["https://allora-testnet-rpc.polkachu.com"]
     #andromeda:
     #    rpc: ["https://andromeda-testnet-api.itrocket.net", "https://andromeda-testnet.rpc.kjnodes.com", "https://rpc-t.andromeda.nodestake.top", "http://95.217.108.25:36657", "http://65.21.133.114:56657", "http://65.108.227.112:14657", "http://78.46.103.246:60957"]
     # arkeo:
     #     rpc: ["https://test-arkeo-api.kynraze.com", "https://testnet-arkeo-rpc.lavenderfive.com", "https://rpc-t.arkeo.nodestake.top"]
     artela:
         rpc: ["https://rpc-t.artela.nodestake.org","https://rpc-testnet-artela.nodeist.net","https://rpc.artela-t.indonode.net","https://artela-testnet.rpc.nodex.one"]
-    babylon:
-        rpc: ["https://babylon-testnet.rpc.kjnodes.com", "http://3.18.176.128:26657", "http://3.22.8.141:26657", "http://49.12.84.248:16657", "http://65.108.206.118:61457", "http://141.95.97.28:15557"]
+    #babylon:
+    #    rpc: ["https://babylon-testnet.rpc.kjnodes.com", "http://3.18.176.128:26657", "http://3.22.8.141:26657", "http://49.12.84.248:16657", "http://65.108.206.118:61457", "http://141.95.97.28:15557"]
     bitcanna:
         rpc: ["https://bitcanna-testnet.rpc.kjnodes.com", "http://212.227.151.143:26657", "http://65.109.28.177:26357", "http://89.116.31.184:26657", "http://212.227.151.106:26657", "http://65.108.131.190:23857", "http://194.163.174.231:26667"]
-    blockx:
-        rpc: ["https://rpc-t.blockx.nodestake.top"]
+    #blockx:
+    #    rpc: ["https://rpc-t.blockx.nodestake.top"]
     # bonusblock:
     #     rpc: ["https://rpc-t.bonusblock.nodestake.top"]
     # cascadia:
@@ -82,8 +84,6 @@ testnet:
     #    rpc: ["https://dora-testnet-rpc.polkachu.com", "https://rpc-t.dora.nodestake.top", "https://dora-testnet-rpc.itrocket.net"]
     elys:
         rpc: ["https://elys-testnet-rpc.polkachu.com", "https://rpc-t.elys.nodestake.top", "https://elys-testnet.rpc.kjnodes.com", "http://37.187.154.66:26657", "http://91.183.62.162:26657", "http://198.27.74.140:26657"]
-    galactica:
-        rpc: ["https://galactica-testnet-rpc.itrocket.net", "https://rpc-t.galactica.nodestake.org"]
     entrypoint:
         rpc: ["https://testnet-rpc.entrypoint.zone"]
     #entangle:
@@ -92,6 +92,8 @@ testnet:
         rpc: ["https://lava-testnet.rpc.kjnodes.com", "https://lava-testnet-rpc.polkachu.com", "https://rpc-t.lava.nodestake.top", "http://65.109.85.52:46657", "http://65.108.65.36:11657", "http://65.109.30.90:11657"]
     mantra:
         rpc: ["https://rpc.mantrachain.aknodes.net", "https://mantra-testnet-rpc.itrocket.net", "https://mantra-testnet-rpc.stake-town.com", "https://mantra-testnet.rpc.nodex.one", "https://testnet-mantra-api.konsortech.xyz", "http://34.70.189.2:26657", "http://62.171.130.196:11157", "http://34.123.40.240:26657", "http://35.192.223.187:26657", "http://35.222.198.102:26657"]
+    initia: 
+        rpc: [https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rpc.ue1-prod.newmetric.xyz, "https://initia-testnet-rpc.polkachu.com", "https://rpc-1.testnet.initia.nodes.guru"]
     # nibiru:
     #     rpc: ["https://nibiru-testnet.rpc.kjnodes.com", "https://rpc-t.nibiru.nodestake.top", "http://65.108.206.118:60657", "http://65.109.26.21:11657", "http://178.63.103.56:11657", "http://195.201.171.182:11657", "http://95.216.33.155:11657"]
     # nolus:
@@ -102,14 +104,14 @@ testnet:
         rpc: ["https://ojo-testnet.rpc.kjnodes.com", "https://ojo-testnet-rpc.polkachu.com", "https://rpc-t.ojo.nodestake.top", "http://142.132.209.236:21657", "http://78.46.99.50:22657"]
     #okp4:
     #     rpc: ["https://okp4-testnet.rpc.kjnodes.com", "https://rpc-t.okp4.nodestake.top", "https://okp4-testnet-rpc.polkachu.com", "http://152.32.225.132:26657", "http://65.109.117.212:13091"]
-    pryzm:
-        rpc: ["https://pryzm-testnet-rpc.polkachu.com", "https://pryzm-testnet-rpc.synergynodes.com"]
+    #pryzm:
+    #    rpc: ["https://pryzm-testnet-rpc.polkachu.com", "https://pryzm-testnet-rpc.synergynodes.com"]
     quasar:
         rpc: ["https://quasar-testnet.rpc.kjnodes.com", "http://222.106.187.13:20602", "http://141.94.138.48:26662"]
     router:
         rpc: ["https://rpc-t.router.nodestake.top", "https://tm.rpc.testnet.routerchain.dev", "http://136.243.88.91:3101", "http://15.206.157.168:26657", "http://43.205.136.8:26657", "http://13.235.115.79:26657", "http://3.110.198.189:26657"]
-    selfchain:
-        rpc: ["https://selfchain-testnet-rpc.polkachu.com", "https://rpc-t.self.nodestake.top"]
+    #selfchain:
+    #    rpc: ["https://selfchain-testnet-rpc.polkachu.com", "https://rpc-t.self.nodestake.top"]
     soarchain:
         rpc: ["https://soarchain-testnet-rpc.polkachu.com", "https://soarchain-testnet.rpc.kjnodes.com"]
     # temporal:
@@ -120,8 +122,8 @@ testnet:
         rpc: ["https://sge-testnet-rpc.polkachu.com"]
     side:
         rpc: ["https://rpc-t.side.nodestake.org", "https://side-testnet-rpc.polkachu.com"]
-    seda:
-        rpc: ["https://seda-testnet-rpc.polkachu.com", "https://seda-testnet.rpc.kjnodes.com"]
+    #seda:
+    #    rpc: ["https://seda-testnet-rpc.polkachu.com", "https://seda-testnet.rpc.kjnodes.com"]
     swisstronik:
         rpc: ["https://rpc.swisstronik.indonode.net", "https://testnet-swisstronik-rpc.genznodes.dev"]
     union:
