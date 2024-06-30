@@ -51,6 +51,8 @@ mainnet:
     #    rpc: ["https://rpc-sommelier.pupmos.network", "https://sommelier-rpc.lavenderfive.com", "https://sommelier-rpc.polkachu.com", "http://5.9.99.172:14157", "http://148.113.6.121:34657"] 
     terp:
         rpc: ["https://terp-mainnet-rpc.itrocket.net", "https://rpc.terp.nodestake.top", "http://65.109.92.240:21317", "http://193.46.243.184:36657", "http://207.244.254.232:26657", "http://65.108.232.168:37657", "http://65.21.90.141:12271"]
+    xion:
+        rpc: ["https://xion-rpc.polkachu.com"]
     #zetachain:
     #    rpc: [https://zetachain-rpc.polkachu.com", "https://rpc.zetachain.nodestake.org"]
 testnet:
