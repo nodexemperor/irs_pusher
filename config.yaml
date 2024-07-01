@@ -96,6 +96,8 @@ testnet:
         rpc: ["https://rpc.mantrachain.aknodes.net", "https://mantra-testnet-rpc.itrocket.net", "https://mantra-testnet-rpc.stake-town.com", "https://mantra-testnet.rpc.nodex.one", "https://testnet-mantra-api.konsortech.xyz", "http://34.70.189.2:26657", "http://62.171.130.196:11157", "http://34.123.40.240:26657", "http://35.192.223.187:26657", "http://35.222.198.102:26657"]
     initia: 
         rpc: [https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rpc.ue1-prod.newmetric.xyz, "https://initia-testnet-rpc.polkachu.com", "https://rpc-1.testnet.initia.nodes.guru"]
+    nillion: 
+        rpc: [https://nillion-testnet-rpc.polkachu.com"]
     # nibiru:
     #     rpc: ["https://nibiru-testnet.rpc.kjnodes.com", "https://rpc-t.nibiru.nodestake.top", "http://65.108.206.118:60657", "http://65.109.26.21:11657", "http://178.63.103.56:11657", "http://195.201.171.182:11657", "http://95.216.33.155:11657"]
     # nolus:
